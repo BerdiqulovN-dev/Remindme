@@ -1,0 +1,246 @@
+.feature {
+
+    &__inner {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &-title {
+            margin-top: 50px;
+            margin-bottom: 0;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 40px;
+            color: #212121;
+        }
+
+        &-text {
+            width: 340px;
+            margin-top: 25px;
+            margin-bottom: 0;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 36px;
+            color: #747474;
+
+        }
+
+    }
+}
+
+@media only screen and (min-width: 414px) {
+
+    .feature {
+
+        &__inner {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            &-title {
+                margin-top: 50px;
+                margin-bottom: 0;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 40px;
+                color: #212121;
+            }
+
+            &-text {
+                width: 340px;
+                margin-top: 25px;
+                margin-bottom: 0;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 36px;
+                color: #747474;
+
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) {
+
+    .feature {
+
+        &__inner {
+            margin-top: 50px;
+        }
+
+        &__img {
+            width: 576px;
+            height: 600px;
+        }
+
+        &__right {
+            display: flex;
+
+            &-title {
+                font-size: 26px;
+                text-align: center;
+            }
+
+            &-text {
+                width: auto;
+                text-align: center;
+
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .feature {
+
+        &__inner {
+            margin-top: 50px;
+        }
+
+        &__img {
+            width: 768px;
+            height: 800px;
+        }
+
+        &__right {
+            display: flex;
+
+            &-title {
+                font-size: 30px;
+                text-align: center;
+            }
+
+            &-text {
+                width: auto;
+                text-align: center;
+
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .feature {
+
+        &__inner {
+            margin-top: 50px;
+            flex-direction: row;
+            gap: 50px;
+        }
+
+        &__img {
+            width: 700px;
+            height: 600px;
+            border-radius: 0px 100px 100px 0px;
+        }
+
+        &__right {
+            display: flex;
+
+            &-title {
+                font-size: 30px;
+                text-align: start;
+            }
+
+            &-text {
+                width: auto;
+                text-align: start;
+
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .feature {
+
+        &__inner {
+            margin-top: 50px;
+            flex-direction: row;
+            gap: 60px;
+        }
+
+        &__img {
+            width: 700px;
+            height: 600px;
+            border-radius: 0px 100px 100px 0px;
+        }
+
+        &__right {
+            display: flex;
+
+            &-title {
+                font-size: 32px;
+                text-align: start;
+            }
+
+            &-text {
+                width: auto;
+                text-align: start;
+
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .feature {
+
+        &__inner {
+            margin-top: 50px;
+            flex-direction: row;
+            gap: 60px;
+        }
+
+        &__img {
+            width: 700px;
+            height: 600px;
+            border-radius: 0px 100px 100px 0px;
+        }
+
+        &__right {
+            display: flex;
+
+            &-title {
+                font-size: 36px;
+                line-height: 65px;
+                text-align: start;
+            }
+
+            &-text {
+                margin-top: 50px;
+                width: auto;
+                text-align: start;
+
+            }
+
+        }
+    }
+}
