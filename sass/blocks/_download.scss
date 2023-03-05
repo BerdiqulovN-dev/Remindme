@@ -1,7 +1,7 @@
 .download {
 
     &__inner {
-        width: 350px;
+        width: 310px;
         margin-top: 50px;
         display: flex;
         flex-direction: column;
@@ -53,6 +53,68 @@
         }
     }
 }
+
+@media only screen and (min-width:414px) {
+   
+    .download {
+
+        &__inner {
+            width: 350px;
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #2D76F9;
+            border-radius: 50px;
+            background-image: url(../../images/download-bg-img.png);
+            padding: 50px 35px;
+    
+    
+            &-title {
+                margin-bottom: 50px;
+                width: 276px;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+    
+            &-link{
+                display: flex;
+                flex-direction: column;
+    
+                &-one {
+                    margin-bottom: 25px;
+                    padding: 24px 58px;
+                    background-color: #FFFFFF;
+                    border-radius: 50px;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: #2D76F9;
+                    text-decoration: none;
+                }
+        
+                &-two {
+                    padding: 24px 76px;
+                    background-color: #2D76F9;
+                    border: 1.5px solid #FFFFFF;
+                    border-radius: 50px;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+        
+}
+
 
 @media only screen and (min-width:576px) {
     
