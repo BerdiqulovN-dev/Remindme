@@ -1202,13 +1202,209 @@ img {
     display: flex;
   }
   .feature__right-title {
+    width: 500px;
     font-size: 36px;
     line-height: 65px;
     text-align: start;
   }
   .feature__right-text {
     margin-top: 50px;
+    width: 500px;
+    text-align: start;
+  }
+}
+.notification__inner {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.notification__img {
+  display: flex;
+}
+.notification__img-two {
+  display: none;
+}
+.notification__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.notification__left-title {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  color: #212121;
+}
+.notification__left-text {
+  width: 340px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #747474;
+}
+
+@media only screen and (min-width: 414px) {
+  .notification__inner {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .notification__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .notification__left-title {
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #212121;
+    text-align: center;
+  }
+  .notification__left-text {
+    width: 360px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #747474;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .notification__inner {
+    margin-top: 50px;
+  }
+  .notification__img {
+    width: 576px;
+    height: 600px;
+  }
+  .notification__left {
+    display: flex;
+  }
+  .notification__left-title {
+    font-size: 26px;
+    text-align: center;
+  }
+  .notification__left-text {
     width: auto;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .notification__inner {
+    margin-top: 50px;
+  }
+  .notification__img {
+    width: 768px;
+    height: 800px;
+  }
+  .notification__left {
+    display: flex;
+  }
+  .notification__left-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .notification__left-text {
+    width: auto;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .notification__inner {
+    margin-top: 50px;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .notification__img {
+    display: none;
+  }
+  .notification__img-two {
+    display: block;
+    width: 700px;
+    height: 600px;
+    border-radius: 100px 0px 0px 100px;
+  }
+  .notification__left {
+    display: flex;
+  }
+  .notification__left-title {
+    font-size: 30px;
+    text-align: start;
+  }
+  .notification__left-text {
+    width: auto;
+    text-align: start;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .notification__inner {
+    margin-top: 50px;
+    flex-direction: row;
+    gap: 60px;
+  }
+  .notification__img {
+    display: none;
+  }
+  .notification__img-two {
+    display: block;
+    width: 700px;
+    height: 600px;
+    border-radius: 100px 0px 0px 100px;
+  }
+  .notification__left {
+    display: flex;
+  }
+  .notification__left-title {
+    font-size: 32px;
+    text-align: start;
+  }
+  .notification__left-text {
+    width: auto;
+    text-align: start;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .notification__inner {
+    margin-top: 50px;
+    flex-direction: row;
+    gap: 60px;
+  }
+  .notification__img {
+    display: none;
+  }
+  .notification__img-two {
+    display: block;
+    width: 700px;
+    height: 600px;
+    border-radius: 100px 0px 0px 100px;
+  }
+  .notification__left {
+    display: flex;
+  }
+  .notification__left-title {
+    width: 500px;
+    font-size: 36px;
+    line-height: 65px;
+    text-align: start;
+  }
+  .notification__left-text {
+    margin-top: 50px;
+    width: 500px;
     text-align: start;
   }
 }
